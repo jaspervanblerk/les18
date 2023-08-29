@@ -1,0 +1,87 @@
+[class*="col-"] {
+    width: 100%;
+    }
+    @media only screen and (min-width: 768px) {
+    [class*="col-"] {
+    float: left;
+    padding: 15px;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    }
+.header {
+    width: 100%;
+}
+body{
+    background-color: rgb(188, 188, 188);
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 32pt;
+    padding-left: 30px;
+    top: 0px;
+    position: absolute;
+    color: #fff;
+}
+h2{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 16;
+}
+.inleiding{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    list-style: none;
+    margin-left: -25px;
+}@media only screen and (max-width: 768px) {.ul{margin: auto}}
+
+.content{
+    position: relative;
+    float: right;
+    right: 20px;
+    color: #fff;
+    background-color: rgb(69, 69, 69);
+    margin-bottom: 10px;
+}@media only screen and (max-width: 768px) {.content{left: 0px}}
+.img-right{
+    float: right;
+    width: 200px;
+    margin-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.tips{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 100;
+    margin-left: -10px;
+    margin-top: 5px;
+}
+footer{
+    text-align: center
+}
